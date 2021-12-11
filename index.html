@@ -34,7 +34,8 @@
         }
 
         .inner {
-            max-width: 1280px;
+            max-width: 1200px;
+            width: 100%;
             margin: auto;
             padding: 20px;
         }
@@ -62,6 +63,10 @@
             width: 100%;
             margin: 30px 0;
             background-color: #FBFBFB;
+            max-width: 1000px;
+            align-items: center;
+            margin: auto;
+            position: relative;
         }
 
         .kaya-card-left {
@@ -120,10 +125,13 @@
 
         .two-sect ul {
             width: 49%;
+            list-style: disc;
         }
 
         .two-sect ul li {
+            margin: 0;
             margin-top: 10px;
+            
         }
 
         .add-cart .quantity {
@@ -177,6 +185,18 @@
                 padding: 10px 20px;
             }
         }
+        .my-btn{
+            position: absolute;
+            bottom: 8%;
+            right: 40%;
+
+        }
+        @media (max-width:900px) {
+            .my-btn{
+                bottom: 3%;
+                right: 10%;
+            }
+        }
     </style>
 </head>
 
@@ -199,7 +219,7 @@
 
 
 
-            <li class="w-100">
+            <li class="w-100 ">
             
             <div class="kaya-card">
                 <div class="kaya-card-left">
@@ -259,11 +279,11 @@
 
 
                     </div>
+                    
+                    </div>
+                    
                     <button class="my-btn kaya-custom-button" type="button">Add To Bag</button>
-
-                </div>
-
-            </div>
+                    </div>
 
             </li>
             
